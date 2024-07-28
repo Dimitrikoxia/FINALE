@@ -1,0 +1,8 @@
+@media (max-width: 320px){
+    .First_header{
+        padding: 28px 8px;
+    }
+    .First_footer{
+        padding: 32px 120px;
+    }
+}

@@ -1,0 +1,20 @@
+@media (max-width: 1025px){
+    .Header_nav{
+display: none;
+    }
+    .img_burger{
+        display: block;
+    }
+    .First_header{
+        padding: 16px 45px;
+    }
+    .article_section{
+        overflow-x: scroll;
+    }
+    .article_card{
+        flex: 1 0 298px;
+    }
+    .First_footer{
+        padding: 48px 98px;
+    }
+}
