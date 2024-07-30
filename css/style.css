@@ -1,24 +1,26 @@
 .container {
     width: min(100%, 1440px);
     margin: auto;
+    padding-top: 99px;
 }
 
+/* header */
 .First_header {
-    background-color: #012426;
-    padding: 16px 94px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     position: fixed;
     max-width: inherit;
     width: inherit;
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    border-bottom: 2px solid #05BCCA;
+    padding: 16px 94px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #012426;
 }
 
-.img_burger {
+.burger,
+.xmark {
     display: none;
 }
 
@@ -27,59 +29,42 @@
     column-gap: 72px;
 }
 
+
 .Header_a {
     font-family: Inter;
     font-size: 24px;
     font-weight: 400;
     line-height: 32px;
-    color: #A1C3C9;
+    color: #A1C3C9
 }
 
-.Header_img {
-    width: 64px;
-    height: 64px;
-}
-
-.Header_ba {
+.pirveliseqciahederis{
     display: flex;
     column-gap: 32px;
 }
+.pirveliseqciahederis button{
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
 
-.Header_img2 {
-    width: 12px;
-    height: 12px;
 }
-
-.Header_button {
-    background-color: #012426;
+.button_border{
     border: 2px solid #05BCCA;
-    width: 40px;
-    height: 40px;
-    border-radius: 8px;
+    background-color: transparent;
 }
-
-.Header_button2 {
-    width: 40px;
-    height: 40px;
-    border-radius: 8px;
+.meorebottom{
     background-color: #05BCCA;
-    border: 2px solid #05BCCA;
+    border: none;
 }
 
-.Header_button3 {
-    background-color: #012426;
-    border: 2px solid #05BCCA;
-    width: 40px;
-    height: 40px;
-    border-radius: 8px;
-}
+
 
 
 
 .First_section {
     background-image: url("../images/pirvelisectionisfoto.png");
     background-repeat: no-repeat;
-    object-fit: cover;
+    background-size: cover;
     height: 560px;
     width: 100%;
     background-position: center;
@@ -211,52 +196,3 @@
     line-height: 24px;
     color: #D9D9D9;
 }
-
-
-
-
-
-
-
-
-
-.First_header{
-    background-color: #012426;
-    padding: 16px 94px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    max-width: inherit;
-    width: inherit;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    border-bottom: 2px solid #05BCCA;
-}
-
-
-.Second_section{
-    height: 1672px;
-    background-color: #012426;
-    display: flex;
-
-}
-.Second_article{
-    width: 1252px;
-    height: 32px;
-    background-color: red;
-}
-.qardebisseqcia{
-    width: 1252px;
-height: 1280px;
-border: 2px solid red;
-
-}
-
-
-
-
-
-
-
